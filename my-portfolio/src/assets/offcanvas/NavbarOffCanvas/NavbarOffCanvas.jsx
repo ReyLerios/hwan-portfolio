@@ -11,7 +11,7 @@ const NavbarOffCanvas = () => {
   return (
     <div className='nav-offcanvas'>
         <div className='offcanvas-header'>
-            <i className='bx bx-chevron-right fs-3 pb-2 ms-auto'></i>
+            <i className='bx bx-chevron-right fs-3 pb-2 ms-auto' data-bs-dismiss='offcanvas' aria-label='Close'></i>
         </div>
         <div className='offcanvas-body'>
             <div className='row text-center gx-1 mt-5'>
