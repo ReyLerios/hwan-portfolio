@@ -1,21 +1,8 @@
 import React, { useState } from 'react'
 import './Navigation.css'
-
-import { AdvancedImage } from '@cloudinary/react'
-import { Cloudinary } from '@cloudinary/url-gen'
-import { fill } from '@cloudinary/url-gen/actions/resize'
 import NavbarOffCanvas from '../../offcanvas/NavbarOffCanvas/NavbarOffCanvas'
 
 const Navigation = () => {
-
-    const cld = new Cloudinary ({
-        cloud: {
-            cloudName: 'du68ssfzw'
-        }
-    })
-
-    const userAvatar = cld.image('My Portfolio/Image/ztbpdvtpd1h5zzltfdbe')
-    userAvatar.resize(fill().width(500).height(500))
 
     const[brand, setbrand] = useState('RL')
 

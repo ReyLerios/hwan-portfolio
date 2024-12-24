@@ -1,5 +1,4 @@
 import './App.css'
-
 import Navigation from './assets/components/Header/Navigation'
 
 function App() {
