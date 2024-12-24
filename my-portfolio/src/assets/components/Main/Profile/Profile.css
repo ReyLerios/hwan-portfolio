@@ -19,3 +19,7 @@
         color: var(--rl-behaviour);
         font-size: .8rem;
     }
+    .profile p {
+        color: var(--rl-text);
+        font-size: .7rem;
+    }
