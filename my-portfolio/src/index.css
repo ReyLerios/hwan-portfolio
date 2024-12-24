@@ -3,7 +3,7 @@
   --rl-header: #2E4053;
   --rl-text: #383838;
   --rl-components: #443737;
-  --rl-bg: #D5D8DC;
+  --rl-bg: #f3f3f3;
   --rl-container: #AAB7B8;
   --rl-behaviour: #6E6658;
   }
@@ -12,8 +12,8 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  background: var(--rl-bg);
   color: var(--rl-text);
+  background: var(--rl-bg);
 }
 h1, h2, h3, h4, h5, h6 {
   color: var(--rl-header);

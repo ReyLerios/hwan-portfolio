@@ -1,0 +1,20 @@
+:root {
+    --rl-header: #2E4053;
+    --rl-text: #383838;
+    --rl-components: #443737;
+    --rl-bg: #D5D8DC;
+    --rl-container: #AAB7B8;
+    --rl-behaviour: #6E6658;
+    }
+
+    .profile img {
+        background: var(--rl-components);
+    }
+    .profile h1 {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+    .profile h6 {
+        color: var(--rl-behaviour);
+        font-size: .8rem;
+    }
