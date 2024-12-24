@@ -13,7 +13,6 @@
   margin: 0;
   scroll-behavior: smooth;
   color: var(--rl-text);
-  background: var(--rl-bg);
 }
 h1, h2, h3, h4, h5, h6 {
   color: var(--rl-header);
@@ -21,4 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 button {
   color: #fff;
   background: var(--rl-components);
+}
+.bg-body {
+  background: var(--rl-bg);
 }

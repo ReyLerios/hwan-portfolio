@@ -12,7 +12,7 @@ const Profile = () => {
 
   return (
     <div className='profile'>
-        <div className='row mt-5'>
+        <div className='row mt-5 pt-3'>
             <div className='col-sm-6 p-3 text-center justify-content-center'>
                 <img className='rounded-circle p-1' width={120} src={userAvatar} alt='userAvatar.jpg' />
                 <h1 className='pt-3 p-1'>{pName}</h1>
