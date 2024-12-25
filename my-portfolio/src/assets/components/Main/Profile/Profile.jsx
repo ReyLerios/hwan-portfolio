@@ -22,7 +22,7 @@ const Profile = () => {
 
             <div className='col-sm-6'>
                 <p className='text-start p-3'>Twenty-three year old freelance front-end developer and computer science student based in the Philippines.
-                    Together with my swift, effective and problem-solving skills, my stacks are current. I have 2 years of experience of UI/UX 
+                    Together with my swift, effective and problem-solving skills, my stacks are current. I have 2 years of experience in UI/UX 
                     Designing. I would be grateful for this collaboration with you on this project and convey how my skills will be useful.
                 </p>
             </div>
