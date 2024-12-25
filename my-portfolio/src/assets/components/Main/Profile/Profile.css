@@ -23,3 +23,30 @@
         color: var(--rl-text);
         font-size: .7rem;
     }
+
+    @media only screen and (min-width: 767px) and (max-width: 1023px)
+    {
+        .profile img {
+            width: 140px;
+        }
+        .profile h1 {
+            font-size: 2.5rem;
+        }
+        .profile p {
+            font-size: .9rem;
+            margin: 1rem 0;
+        }
+    }
+    @media only screen and (min-width: 1024px)
+    {
+        .profile img {
+            width: 150px;
+        }
+        .profile h1 {
+            font-size: 3rem;
+        }
+        .profile p {
+            font-size: 1rem;
+            margin: 1.5rem 0;
+        }
+    }

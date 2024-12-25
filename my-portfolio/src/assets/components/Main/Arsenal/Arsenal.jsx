@@ -36,43 +36,43 @@ const Arsenal = () => {
   return (
     <div className='arsenal mb-5'>
         <div className='row p-2'>
-            <div className='col-sm-4 p-3 text-start'>
-                <h6>Stacks</h6>
+            <div className='col-12 p-3 text-start'>
+                <h6>Tech Stacks</h6>
             </div>
         </div>
         <div className='row gx-1 text-center justify-content-center'>
             <div className='col-lg-3 col-6 col-md-6 col-12 mt-3'>
-                <img width={25} src={reactEmblem} alt='react.svg' />
+                <img width={30} src={reactEmblem} alt='react.svg' />
                 <p className='lang'>{jsx}</p>
             </div>
             <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>
-                <img width={25} src={angularEmblem} alt='react.svg' />
+                <img width={30} src={angularEmblem} alt='react.svg' />
                 <p className='lang'>{ng}</p>
             </div>
             <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>
-                <img width={25} src={swiftEmblem} alt='react.svg' />
+                <img width={30} src={swiftEmblem} alt='react.svg' />
                 <p className='lang'>{swf}</p>
             </div>
             <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>
-                <img width={25} src={pythonEmblem} alt='react.svg' />
+                <img width={30} src={pythonEmblem} alt='react.svg' />
                 <p className='lang'>{py}</p>
             </div>
         </div>
         <div className='row gx-1 mt-2 text-center justify-content-center'>
             <div className='col-lg-3 col-6 col-md-6 col-12 mt-3'>
-                <img width={25} src={expressEmblem} alt='react.svg' />
+                <img width={30} src={expressEmblem} alt='react.svg' />
                 <p className='lang'>{exp}</p>
             </div>
             <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>
-                <img width={25} src={linuxEmblem} alt='react.svg' />
+                <img width={30} src={linuxEmblem} alt='react.svg' />
                 <p className='lang'>{lnx}</p>
             </div>
             <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>
-                <img width={25} src={bootstrapEmblem} alt='react.svg' />
+                <img width={30} src={bootstrapEmblem} alt='react.svg' />
                 <p className='lang'>{bs}</p>
             </div>
             <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>
-                <img width={25} src={materialEmblem} alt='react.svg' />
+                <img width={30} src={materialEmblem} alt='react.svg' />
                 <p className='lang'>{mu}</p>
             </div>
         </div>
