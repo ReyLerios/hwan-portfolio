@@ -9,6 +9,12 @@
 
     .profile img {
         background: var(--rl-components);
+        cursor: pointer;
+        transition: .5s;
+    }
+    .profile img:hover {
+        filter: brightness(50%);
+        transition: .5s ease-in-out;
     }
     .profile h1 {
         font-size: 2.3rem;
