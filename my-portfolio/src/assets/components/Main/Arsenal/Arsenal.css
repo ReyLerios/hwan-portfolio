@@ -6,3 +6,9 @@
     --rl-container: #AAB7B8;
     --rl-behaviour: #6E6658;
     }
+
+    .lang {
+        color: var(--rl-container);
+        font-size: .6rem;
+        padding-top: 4px;
+    }
