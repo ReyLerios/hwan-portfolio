@@ -1,40 +1,11 @@
-
-:root {
-  --rl-header: #2E4053;
-  --rl-text: #383838;
-  --rl-components: #443737;
-  --rl-bg: #f3f3f3;
-  --rl-container: #AAB7B8;
-  --rl-behaviour: #6E6658;
-  }
-
 * {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  color: var(--rl-text);
-}
-h1, h2, h3, h4, h5, h6 {
-  color: var(--rl-header);
-}
-button {
-  color: #fff;
-  background: var(--rl-components);
-}
-.bg-body {
-  background: var(--rl-bg);
 }
 
+@media only screen and (min-width: 374px) and (max-width: 424px)
+{}
 
-::-webkit-scrollbar {
-  width: 1px;
-}
-::-webkit-scrollbar-track {
-  background: transparent; 
-}
-::-webkit-scrollbar-thumb {
-  background: transparent; 
-}
-::-webkit-scrollbar-thumb:hover {
-  background: transparent; 
-}
+@media only screen and (min-width: 425px) and (max-width: 767px)
+{}

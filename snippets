@@ -39,3 +39,8 @@ const Navigation = () => {
 }
 
  export default Navigation
+
+
+ fetch(userAvatar).then(response => response.json()).then(data => console.log(data))
+
+ const userAvatar = 'https://res.cloudinary.com/du68ssfzw/image/upload/v1735049873/My%20Portfolio/Image/ztbpdvtpd1h5zzltfdbe.jpg'
